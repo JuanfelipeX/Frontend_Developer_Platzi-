@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page - herohernan</title>
+
+    <!-- CSS styles -->
+    <style>
+        /* división (div) pura */
+        
+        div {
+            background: lightblue;
+        }
+        /* División utilizando un selector de "clase" */
+        
+        .divisionNum2 {
+            color: darkorange;
+        }
+        /* División utilizando un selector de "ID" */
+        
+        #divisionNum3 {
+            color: brown;
+        }
+        /* División utilizando un selector de "atributo" */
+        
+        a[href="https://github.com/herohernan"] {
+            color: fuchsia;
+        }
+        /* Selector *universal. Aplica a toda la pag web */
+        
+        * {
+            background: papayawhip;
+        }
+        /* Selector combinador: "descendiente". "h2" dentro de "div" */
+        
+        div h2 {
+            color: goldenrod;
+        }
+        /* Selector combinador: "hijo directo". "div" dentro de un "div" */
+        
+        div>div {
+            color: red;
+        }
+        /* Selector combinador: "elemento adyacente". El "section" que sigue después de un "div" */
+        
+        div+section {
+            color: limegreen;
+        }
+        /* Selector combinador: "general de hermanos". Todos los "h3" que sigue después de un "div" */
+        
+        div~h3 {
+            color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Pestaña de navegación -->
+    <nav>
+        <ul>
+            <li>About me</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+
+    <!-- Sección #1 de la página web -->
+    <section>
+        <!-- Título en el documento -->
+        <h1>Hernán Hernández (herohernan)</h1>
+        <!-- También hay otros textos de menor prioridad (h2..h6) -->
+
+        <!-- Párrafo -->
+        <p>This is the first example of a html page with Css</p>
+
+        <!-- Se crean 3 items sobre una lista desordenada (ul). La etiqueta <b> = negrita -->
+        <ul>
+            <li><b>html</b> = HyperText Markup Language. This is the structure of the web pag (the skeleton)</li>
+            <li><b>Css</b> = Cascading Style Sheets. This is the live of the WebPage to stylize elements like colors, sizes, positions</li>
+            <li><b>JavaScript</b> = functionality of the web page</li>
+        </ul>
+    </section>
+
+    <!-- Sección #2 de la página web -->
+    <section>
+        <!-- La etiqueta img trae la imagen de la url definida en el atributo "src" y la coloca acá con un texto alternativo ("alt") definido como ("cat")-->
+        <img src="https://images.pexels.com/photos/4588458/pexels-photo-4588458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="cat">
+    </section>
+
+    <!-- Formulario -->
+    <form action="">
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+    </form>
+
+    <!-- anchor (enlace para otras páginas) -->
+    <a href="https://web.facebook.com/herohernan/">Go to facebook</a>
+
+    <!-- división (div) pura. Nosotros podemos crear cuantas divisiones necesitemos dando orden al documento -->
+    <!-- CSS: Arriba en el head se define un "background" especial para todo lo que se encuentre dentro de esta etiqueta "div"-->
+    <div>
+        Div: This text has a lightblue background
+    </div>
+
+    <!-- División utilizando un selector de "clase", creado por nosotros mismos -->
+    <!-- CSS: Arriba en el head se define un "color" especial para todo lo que se encuentre dentro de la clase "divisionNum2" -->
+    <div class="divisionNum2">
+        Div class: This text has a lightblue background (div) and the characters are in darkorange (div class)
+    </div>
+
+    <!-- División utilizando un selector de "ID", definido por nosotros mismos -->
+    <!-- CSS: Arriba en el head se define un "color" especial para todo lo que se encuentre en el ID = "divisionNum3" -->
+    <div id="divisionNum3">
+        div ID: This text has a lightblue background (div) and the characters are in brown (div ID)
+    </div>
+
+    <!-- División utilizando un selector de "atributo", definido por nosotros mismos-->
+    <!-- CSS: Arriba en el head se define un "color" especial todo lo que se encuentre en el atributo href con el valor exacto de https://github.com/herohernan -->
+    <a href="https://github.com/herohernan">Github</a>
+
+    <!-- División utilizando un selector combinador: "descendiente", para h2 dentro de div -->
+    <!-- CSS: Arriba en el head se define un "color" especial para todas las etiquetas "h2" que se encuentren dentro de un "div"-->
+    <div>
+        <h2>Descendant selector (Combinator): This is a text in goldenrod</h2>
+    </div>
+
+    <!-- División utilizando un selector combinador: "hijo directo", para div dentro de div -->
+    <!-- CSS: Arriba en el head se define un "color" especial para todas las etiquetas "div" que se encuentren dentro de un "div"-->
+    <div>
+        <div>
+            <p>Child selector (Combinator): This is a text in red</p>
+        </div>
+    </div>
+
+    <!-- División utilizando un selector combinador: "elemento adyacente", "section" después de un "div" -->
+    <!-- CSS: Arriba en el head se define un "color" especial para todos el "section" que van después de un "div"-->
+    <div>
+        <p>filler paragraph#1</p>
+    </div>
+    <section>
+        <p>Adjacent sibling selector(Combinator): This is a text in limegreen</p>
+    </section>
+    <section>
+        <p>filler section paragraph</p>
+    </section>
+    <div>
+        <p>filler paragraph#1</p>
+    </div>
+
+    <!-- División utilizando un selector combinador: "general de hermanos", todos los "h3" después de un "div" -->
+    <!-- CSS: Arriba en el head se define un "color" especial para todos los "h3" que van después de un "div"-->
+    <div>
+        <p>filler paragraph#2</p>
+    </div>
+    <h3>general sibling selecto(Combinator): This is a text in teal</h3>
+    <h3>general sibling selecto(Combinator): This is a other text in teal</h3>
+    <div>
+        <p>filler paragraph#2</p>
+    </div>
+</body>
+
+</html>
