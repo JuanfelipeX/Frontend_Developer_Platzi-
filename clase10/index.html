@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad</title>
+    <style>
+        * {
+            background-color: white;
+        }
+        
+        div {
+            font-size: 200%;
+        }
+        
+        #platzi {
+            /** Usamos un ID*/
+            color: red;
+        }
+        
+        .master {
+            /** Usamos una Clase**/
+            color: blueviolet;
+        }
+        
+        #resaltar {
+            font-size: 150%;
+            color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cascada y Especificidad</h1>
+    <section>
+        <div id="platzi" class="master">Platzi</div>
+        <h2>Contexto: </h2>
+        <p>
+            La idea de este ejercicio es ver la especificidad de los elementos con esto en cuenta se utiliza una calculadora <strong><a href="https://specificity.keegan.st/">https://specificity.keegan.st/</a></strong> para saber cual de los dos es más
+            especifico, por lo cual un <u>id</u> es más especifico que una <u>clase</u> lo que significa que los cambios de <u>id</u> prevalecen sobre los de la <u>clase</u>
+            <br/><strong id="resaltar">Recordar: </strong> Por favor revisa el codigo usando el <i><u>inspector</u></i>
+        </p>
+    </section>
+
+</body>
+
+</html>
