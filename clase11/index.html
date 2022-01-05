@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Extended Description">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Display 1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        div {
+            background-color: brown;
+            /* Si tiene efecto */
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        
+        a {
+            background-color: blueviolet;
+            /* No tiene efecto */
+            width: 200px;
+            height: 200px;
+            /* Si tiene efecto, solo a los laterales */
+            margin: 20px;
+        }
+        
+        button {
+            background-color: crimson;
+            /* Si tiene efecto */
+            width: 100px;
+            height: 35px;
+            margin: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Bloque
+    </div>
+    <a href="/">Inline</a>
+    <button>Inline-Block</button>
+</body>
+
+</html>
