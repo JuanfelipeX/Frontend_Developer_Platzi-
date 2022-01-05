@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A6 - C9 Selectores3</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <!--font-->
+    <style>
+        * {
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .button {
+            color: red;
+            height: 100px;
+            width: 100px;
+        }
+        
+        #b1 {
+            background-image: url(https://img.icons8.com/ios/344/animated.png);
+            height: 100px;
+            width: 100px;
+            background-size: 100px 100px;
+            border-radius: 20px;
+        }
+        
+        #b2 {
+            height: 100px;
+            width: 100px;
+            background-size: 80px 80px;
+            background-image: url(https://img.icons8.com/ios/344/animated.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+            border-radius: 20px;
+        }
+        
+        .button:hover {
+            background-color: #ffeeda;
+        }
+        
+        .button:focus {
+            background-color: rgb(236, 223, 207);
+        }
+        
+        p:hover::first-letter {
+            color: red;
+        }
+        
+        p::after {
+            content: " Hola";
+        }
+        
+        p:nth-child(2) {
+            font-weight: bold;
+        }
+        
+        .text::placeholder {
+            font-family: 'Nunito', sans-serif;
+            font-size: 12pt;
+            font-weight: bold;
+            color: crimson;
+        }
+        
+        #b3:hover {
+            border-radius: 20px;
+            background-color: #ffeeda;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="header1">Clase 9 | Pseudoclases y pseudoelementos</h1><br>
+    <h2 class="header2">Prueba</h2>
+    <div class="parrafos">
+        <p>Hola</p>
+        <p>Bienvenido a mi portafolio</p>
+        <p>Echa un vistazo a los siguientes botones</p>
+    </div>
+    <input type="button" class="button" id="b1">
+    <input type="button" class="button" id="b2"><br>
+    <input type="text" class="text" placeholder="Type here">
+    <input type="button" value="A darle" class="button" id="b3">
+</body>
+
+</html>
