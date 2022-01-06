@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caja</title>
+    <style>
+        header {
+            display: block;
+            background-color: violet;
+            width: 550px;
+            height: 130px;
+            margin: auto;
+            /** Es la parte exterior del recuadro, es el margen que tiene el objeto con
+                            respecto a otros elementos. **/
+            box-sizing: border-box;
+            /** Sirve para que todos los elementos sumen 
+                                    el tamaño seleccionado (550px*100px) y no que 
+                                    se sumen dando como resultado un tamaño mayor. **/
+            border: 2px solid red;
+            /** Border recibe como parametros (Npx[por cada lado], 
+                                    el tipo de borde y el color del borde) **/
+            padding: 5px;
+            /** Es un espacio entre los elementos, este se muestra dentro del recuadro **/
+        }
+        
+        header h1 {
+            text-align: center;
+        }
+        
+        header h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Modelo de Caja</h1>
+        <h2>Box-Model</h2>
+    </header>
+</body>
+
+</html>
