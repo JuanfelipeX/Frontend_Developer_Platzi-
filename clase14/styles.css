@@ -1,0 +1,18 @@
+.container,
+#michi {
+    width: 1000px;
+}
+
+#estambre {
+    width: 150px;
+}
+
+.container {
+    position: relative;
+}
+
+#estambre {
+    position: absolute;
+    top: 210px;
+    right: 350px;
+}
