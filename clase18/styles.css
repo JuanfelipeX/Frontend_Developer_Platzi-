@@ -1,0 +1,24 @@
+/*Media Queries: Permiten cambiar los estilos de acuerdo a la resolución de pantalla*/
+
+.media_query {
+    /* Valores globales por encima de 601px*/
+    background: red;
+}
+
+@media (max-width: 300px) {
+    /* Valores por debajo (o hasta) 300px*/
+    .media_query {
+        background: yellow;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+    /* Valores entre 301px y 600px */
+    .media_query {
+        background: blue;
+    }
+}
+
+
+/*Nota: max-width: Valores por debajo de ...
+              min-width: Valores por delante de ... */
