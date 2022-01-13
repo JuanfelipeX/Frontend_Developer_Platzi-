@@ -1,0 +1,96 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+
+.form-container {
+    display: grid;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input {
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 1.6rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button-login {
+    background-color: var(--hospital-green);
+    border-radius: 10px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.resend {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.resend a {
+    color: var(--hospital-green);
+    text-decoration: none;
+}
+
+.button-signup {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 0.2rem solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 25px;
+}
