@@ -17,3 +17,20 @@
 html {
     font-size: 62.5%;
 }
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 30px;
+}
+
+.product-card {
+    width: 200px;
+}
+
+.product-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}

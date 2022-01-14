@@ -1,0 +1,69 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    gap: 30px;
+    place-content: center;
+}
+
+.product-card {
+    width: 150px;
+}
+
+.product-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--text-input-field);
+    border-radius: 15px;
+    margin-top: 1rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.product-info div p:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    margin-left: 1.5rem;
+}
+
+.product-info div p:nth-child(2) {
+    font-size: 1.4rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    color: var(--dark);
+    margin-left: 1.5rem;
+}
+
+.product-info figure img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
