@@ -18,6 +18,10 @@ html {
     font-size: 62.5%;
 }
 
+.menu-three-lines {
+    display: none;
+}
+
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);

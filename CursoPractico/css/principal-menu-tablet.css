@@ -18,6 +18,12 @@ html {
     font-size: 62.5%;
 }
 
+.navbar-logo {
+    width: 150px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);

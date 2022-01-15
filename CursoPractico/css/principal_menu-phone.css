@@ -18,6 +18,68 @@ html {
     font-size: 62.5%;
 }
 
+nav {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    padding: 0 4rem 2rem;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid var(--very-light-pink);
+}
+
+.navbar-left {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.navbar-left ul,
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left ul li a,
+.navbar-right ul li a {
+    text-decoration: none;
+    color: var(--black);
+    border: 1px solid var(--white);
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover {
+    text-decoration: none;
+    color: var(--hospital-green);
+    border: 0.1rem solid var(--hospital-green);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navbar-email {
+    font-size: 1.6rem;
+    margin-right: 3rem;
+}
+
+.navbar-shopping-cart {
+    position: relative;
+}
+
+.navbar-shopping-cart div {
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: var(--hospital-green);
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    position: absolute;
+    top: -6px;
+    right: -3px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 150px);
