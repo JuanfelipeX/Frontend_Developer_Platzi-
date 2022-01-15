@@ -19,9 +19,17 @@ html {
 }
 
 .navbar-logo {
-    width: 150px;
+    width: 15rem;
     margin-right: 2rem;
     margin-left: 2rem;
+}
+
+.navbar-email {
+    display: flex;
+}
+
+.navbar-left {
+    display: none;
 }
 
 .cards-container {

@@ -22,6 +22,11 @@ html {
     display: none;
 }
 
+.navbar-left,
+.navbar-email {
+    display: flex;
+}
+
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
