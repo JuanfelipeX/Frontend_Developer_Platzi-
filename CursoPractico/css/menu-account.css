@@ -1,0 +1,54 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.desktop-menu {
+    font-size: 3rem;
+    width: 25rem;
+    height: auto;
+    border: 0.1rem solid var(--very-light-pink);
+    border-radius: 0.6rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.desktop-menu ul {
+    list-style: none;
+}
+
+.desktop-menu ul li {
+    text-align: end;
+    font-weight: bold;
+}
+
+.desktop-menu ul li a {
+    text-decoration: none;
+    color: var(--black);
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.desktop-menu ul li:last-child {
+    padding-top: 2rem;
+    border-top: 0.2rem solid var(--very-light-pink);
+}
+
+.desktop-menu ul li:last-child a {
+    font-size: 2.5rem;
+    color: var(--hospital-green);
+}
