@@ -1,0 +1,54 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.mobile-menu {
+    padding: 3rem;
+    font-size: 1.4rem;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.mobile-menu ul:nth-child(2) {
+    border-bottom: 0.1rem solid var(--very-light-pink);
+}
+
+.mobile-menu li {
+    margin-bottom: 1.5rem;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.email {
+    font-size: 1.2rem;
+    font-weight: 50 !important;
+}
+
+.sign-out {
+    font-size: 1.2rem;
+    font-weight: 50 !important;
+    color: var(--hospital-green) !important;
+}
