@@ -19,6 +19,9 @@ html {
 }
 
 .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 3rem;
     font-size: 1.4rem;
 }
@@ -30,6 +33,7 @@ html {
 
 .mobile-menu ul:nth-child(2) {
     border-bottom: 0.1rem solid var(--very-light-pink);
+    margin-bottom: 2rem;
 }
 
 .mobile-menu li {
@@ -42,13 +46,13 @@ html {
     font-weight: bold;
 }
 
-.email {
+.mobile-menu .email {
     font-size: 1.2rem;
-    font-weight: 50 !important;
+    font-weight: 50;
 }
 
-.sign-out {
+.mobile-menu .sign-out {
     font-size: 1.2rem;
-    font-weight: 50 !important;
-    color: var(--hospital-green) !important;
+    font-weight: 50;
+    color: var(--hospital-green)
 }
