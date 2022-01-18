@@ -4,16 +4,15 @@
 
 ## Live pages
 
- - [index](https://github.com/JuanfelipeX/Frontend_Developer_Platzi-/blob/master/CursoPractico/html/menu-account.html)
- - [account](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/account.html)
- - [email-sent](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/email-sent.html)
- - [login](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/login.html)
- - [menu-desktop](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/menu-desktop.html)
- - [menu-mobile](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/menu-mobile.html)
- - [my-account](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/my-account.html)
- - [my-order](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/my-order.html)
- - [new-pass](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/new-pass.html)
- - [orders-history](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/orders-history.html)
- - [product-detail](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/product-detail.html)
- - [shopping-cart](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/shopping-cart.html)
+ - [index](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/principal-menu.html)
+ - [account](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/account.html)
+ - [email-sent](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/mail.html)
+ - [login](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/login.html)
+ - [menu-Account](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/menu-account.html)
+ - [menu-Categories-Mobile](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/categories.html)
+ - [my-order](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/orders.html)
+ - [new-pass](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/password.html)
+ - [orders-history](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/orded.html)
+ - [product-detail](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/details-product.html)
+ - [shopping-cart](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/shopping.html)
 
