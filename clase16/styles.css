@@ -1,3 +1,12 @@
+:root {
+    --white: #ffffff;
+    --facebook: #1877f2;
+    --twitter: #1DA1F2;
+    --instagram: #8a3853;
+    --youtube: #FF0000;
+    --github: #333333;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -127,6 +136,22 @@ body {
     height: 5rem;
 }
 
-.social_media img:hover {
-    background-color: rgb(133, 133, 133);
+.button.facebook img:hover {
+    background-color: var(--facebook);
+}
+
+.button.linkedin img:hover {
+    background-color: var(--twitter);
+}
+
+.button.instagram img:hover {
+    background-color: var(--instagram);
+}
+
+.button.youtube img:hover {
+    background-color: var(--youtube);
+}
+
+.button.github img:hover {
+    background-color: var(--github);
 }
