@@ -1,0 +1,109 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.my-order {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+}
+
+.my-order-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 30rem;
+}
+
+.title-order {
+    font-size: 3rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+.my-order-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.order {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: var(--text-input-field);
+    margin-bottom: 5rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.order p:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.order p:nth-child(2) {
+    text-align: end;
+    font-weight: bold;
+}
+
+.order p span:nth-child(1) {
+    font-weight: bold;
+}
+
+.order p span:nth-child(2) {
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    align-items: center;
+}
+
+.shopping-cart figure img {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.shopping-cart p:nth-child(2) {
+    color: var(--hospital-green);
+}
+
+.shopping-cart p:nth-child(3) {
+    font-weight: bold;
+}
+
+.primary-button {
+    background-color: var(--hospital-green);
+    border-radius: 10px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 50px;
+}
