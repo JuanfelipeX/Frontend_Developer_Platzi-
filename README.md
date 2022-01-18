@@ -4,7 +4,7 @@
 
 ## Live pages
 
- - [index](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/index.html)
+ - [index](https://github.com/JuanfelipeX/Frontend_Developer_Platzi-/blob/master/CursoPractico/html/menu-account.html)
  - [account](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/account.html)
  - [email-sent](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/email-sent.html)
  - [login](https://pikyr.github.io/cursoFrontendDeveloper/yardSale/login.html)
