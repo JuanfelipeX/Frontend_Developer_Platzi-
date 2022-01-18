@@ -16,3 +16,10 @@
  - [product-detail](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/details-product.html)
  - [shopping-cart](https://juanfelipex.github.io/Frontend_Developer_Platzi-//CursoPractico/html/shopping.html)
 
+# Card
+
+## Live Card By: Juan Felipe Jimenez Pacheco
+
+- [Card By: Juan Felipe Jimenez P.](https://juanfelipex.github.io/Frontend_Developer_Platzi-//clase16/index.html)
+
+
